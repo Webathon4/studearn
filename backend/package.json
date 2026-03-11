@@ -1,0 +1,26 @@
+{
+  "name": "student-pocket-money-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+<<<<<<< HEAD
+    "mongoose": "^8.5.1",
+    "socket.io": "^4.8.3"
+=======
+    "mongoose": "^8.5.1"
+>>>>>>> 88cd139a465b2dd0b173e63e6b7a239dc38e9768
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
