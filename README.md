@@ -1,230 +1,217 @@
-🎓 Student Gig & Skill Ecosystem Platform
-A student‑first gig marketplace designed to help students earn responsibly while balancing their academic life.
+# 🎓 Student Gig & Skill Ecosystem Platform
+
+A **student‑first gig marketplace** designed to help students earn responsibly while balancing their academic life.  
 This platform connects students with short‑term opportunities, enables skill exchange within campuses, and provides intelligent insights before accepting physical jobs.
 
-The goal of this project is to create a reliable and transparent ecosystem where students can earn, learn, and collaborate without negatively affecting their studies.
+The goal of this project is to create a **reliable and transparent ecosystem where students can earn, learn, and collaborate without negatively affecting their studies.**
 
-🚀 Problem Statement
-Many students want to earn money during their college years, but existing gig platforms are not designed for student environments.
+---
+
+# 🚀 Problem Statement
+
+Many students want to earn money during their college years, but existing gig platforms are **not designed for student environments**.
 
 Common challenges include:
 
-Lack of flexible, campus‑based opportunities
+- Lack of **flexible, campus‑based earning opportunities**
+- No way to evaluate whether a **physical job is actually profitable**
+- Difficulty maintaining a **balance between academics and work**
+- Limited **trust and transparency** between students and job providers
 
-No way to evaluate whether a physical job is actually profitable
+Traditional gig platforms primarily target professional freelancers and overlook the needs of students.
 
-Difficulty maintaining a balance between academics and work
+---
 
-Limited trust between students and job providers
+# 💡 Our Solution
 
-Traditional gig platforms primarily target professional freelancers and often overlook the needs of students.
-
-💡 Our Solution
-We built a student‑centric platform that enables students to access short‑term opportunities within their community while maintaining transparency and accountability.
+We developed a **student‑centric platform** that enables students to access short‑term opportunities within their community while maintaining transparency and accountability.
 
 The platform provides:
 
-A gig marketplace for student-friendly jobs
+- A **Gig Marketplace** for student‑friendly jobs  
+- **AI‑based Profitability Analysis** for physical work  
+- A **Trust Score System** to ensure reliability  
+- A **Skill Exchange System (LearnHub)** for peer learning  
+- A **Book Auction Feature** for academic resources  
 
-AI‑based profitability analysis for physical work
+Together, these features create a **balanced ecosystem that encourages both earning and learning.**
 
-A trust score system to ensure reliability
+---
 
-A skill exchange system (LearnHub) for peer learning
+# ✨ Key Features
 
-A book auction feature for academic resources
+## 🤖 AI Profit Analysis for Physical Jobs
 
-By combining these features, the system creates a balanced ecosystem that encourages both earning and learning.
-
-✨ Key Features
-🤖 AI Profit Analysis for Physical Jobs
 Before accepting a physical job, the platform helps students evaluate whether it is financially worthwhile.
 
 The system:
 
-Detects the student’s location
-
-Calculates the distance between student and workplace
-
-Estimates round‑trip travel cost
-
-Calculates actual take‑home profit
-
-Provides a recommendation to help students make informed decisions
+- Detects the **student’s location**
+- Calculates **distance between student and workplace**
+- Estimates **round‑trip travel cost**
+- Calculates **actual take‑home profit**
+- Provides a **recommendation for informed decision‑making**
 
 This prevents students from accepting jobs that may result in financial loss.
 
-📍 Location-Based Job Filtering
-Students can search for jobs based on location.
+---
+
+## 📍 Location‑Based Job Filtering
+
+Students can discover opportunities based on location.
 
 Features include:
 
-Automatic location detection
+- **Automatic location detection**
+- Display of **distance between student and workplace**
+- Optional **Google Maps integration** for navigation
 
-Distance display between student and workplace
+---
 
-Optional Google Maps integration for navigation
+## 🔐 Trust Score System
 
-🔐 Trust Score System
-To build trust between students and clients, the platform includes a trust score mechanism.
+To ensure reliability and accountability, the platform includes a **Trust Score mechanism**.
 
-+10 points for successful job completion
+- **+10 points** → Job completed successfully  
+- **-15 points** → Job skipped or abandoned  
 
--15 points for skipping or abandoning a job
+Clients can review a student's **trust score and work history** before selecting them.
 
-Clients can review a student's trust score and work history before accepting them, improving transparency.
+---
 
-💼 Gig Marketplace
+## 💼 Gig Marketplace
+
 Clients can:
 
-Post short-term jobs
-
-Review applicants
-
-Check student profiles and trust scores
-
-Accept or reject applicants
+- Post short‑term jobs
+- Review student applicants
+- Check **student profiles and trust scores**
+- Accept or reject applicants
 
 Students can:
 
-Browse available gigs
+- Browse available gigs
+- Apply for opportunities
+- Track application status
+- Communicate with clients after acceptance
 
-Apply for opportunities
+---
 
-Track application status
+## 📚 LearnHub – Skill Exchange Platform
 
-Communicate through chat when accepted
-
-📚 LearnHub – Skill Exchange Platform
-LearnHub allows students to teach and learn skills from each other.
+LearnHub enables students to **teach and learn skills from each other**.
 
 Students can:
 
-Post skills they want to teach
+- Post skills they want to **teach**
+- Request skills they want to **learn**
+- Apply with **pricing proposals**
+- Begin collaboration after acceptance
 
-Request skills they want to learn
+This promotes **peer learning within the campus community.**
 
-Apply with pricing proposals
+---
 
-Begin collaboration after acceptance
+## 📖 Academic Book Auction System
 
-This feature promotes peer learning within the campus community.
-
-📖 Academic Book Auction System
-Students can auction used academic books to help others access affordable resources.
+Students can auction **used academic books** to make resources more accessible.
 
 Features include:
 
-Hosting book auctions
+- Hosting book auctions
+- Bidding system
+- Chat between seller and winning bidder
 
-Bidding system
+---
 
-Direct communication between seller and winning bidder
+## 💬 Conditional Chat System
 
-💬 Conditional Chat System
-Communication between users is enabled only after a transaction is confirmed, ensuring relevant and secure conversations.
+Communication is enabled **only after a transaction is confirmed**, ensuring relevant conversations.
 
-Chat is activated when:
+Chat becomes available when:
 
-A job application is accepted
+- A **job application is accepted**
+- An **auction winner is selected**
+- A **LearnHub request is approved**
 
-An auction winner is selected
+---
 
-A LearnHub request is approved
+# 🛠 Tech Stack
 
-🛠 Tech Stack
-Frontend
-React.js
+## Frontend
+- **React.js**
+- **Tailwind CSS**
 
-Tailwind CSS
+## Backend
+- **Node.js**
+- **Express.js**
 
-Backend
-Node.js
+## Database
+- **MongoDB**
 
-Express.js
+## APIs & Services
+- **Google Maps API**
+- **Browser Geolocation API**
+- **Socket.io** for real‑time communication
 
-Database
-MongoDB
+---
 
-APIs & Services
-Google Maps API
+# 🏗 System Architecture
 
-Browser Geolocation API
+The platform follows a **layered architecture model**:
 
-Socket.io for real-time communication
+### Client Layer
+- Students  
+- Job Hosts / Clients  
 
-🏗 System Architecture
-The platform follows a layered architecture:
+### Frontend Layer
+- Role‑based dashboards  
+- Job marketplace  
+- LearnHub skill exchange  
+- Auction system  
+- Chat interface  
 
-Client Layer
+### Backend Layer
+- Authentication service  
+- Job management system  
+- AI profit analysis engine  
+- Trust score management  
+- Notification system  
 
-Students
+### Database
+- Users  
+- Jobs  
+- Applications  
+- Chats  
+- Auctions  
+- LearnHub posts  
+- Notifications  
 
-Job Hosts / Clients
+---
 
-Frontend Layer
+# 📊 Impact
 
-Role‑based dashboards
+This platform aims to:
 
-Job marketplace
+- Help students **earn responsibly**
+- Prevent acceptance of **loss‑making physical jobs**
+- Encourage **skill sharing within campus communities**
+- Build a **trusted ecosystem for student work**
 
-LearnHub skill exchange
+---
 
-Auction module
+# 🔮 Future Improvements
 
-Chat interface
-
-Backend Layer
-
-Authentication service
-
-Job management system
-
-AI profit analysis engine
-
-Trust score management
-
-Notification system
-
-Database
-
-Users
-
-Jobs
-
-Applications
-
-Chats
-
-Auctions
-
-LearnHub posts
-
-Notifications
-
-📊 Impact
-This project aims to:
-
-Help students earn responsibly
-
-Prevent acceptance of loss‑making physical jobs
-
-Encourage skill sharing within campus communities
-
-Build a trusted ecosystem for student work
-
-🔮 Future Improvements
 Potential enhancements include:
 
-Payment gateway integration
+- **Payment gateway integration**
+- **Student identity verification**
+- **Mobile application**
+- **Machine learning‑based job recommendations**
+- **Advanced rating and reputation system**
 
-Student identity verification
+---
 
-Mobile application development
+# 🏆 Hackathon Project
 
-Machine learning based job recommendations
-
-Advanced rating and reputation system
-
-🏆 Hackathon Project
-This platform was developed during a hackathon, where our team designed and implemented a working prototype demonstrating how technology can support a smarter student economy.
+This project was developed during a **hackathon**, where our team designed and implemented a working prototype demonstrating how technology can support a **smarter student economy.**
